@@ -1,0 +1,26 @@
+.infobox{
+    /* width: 93%; */
+    flex: 1;
+}
+.infobox:not(:last-child){
+    margin-bottom: 15px;
+}
+.infobox_title{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 600;
+
+}
+.infobox_cases{
+    text-transform: capitalize;
+    color: brown;
+
+}
+.infobox_total{
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}

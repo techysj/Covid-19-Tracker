@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:#e9ecef;
+  max-height: 100vh;
+
+}
+
+.app .header{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1%;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.app .header img{
+  width: 50px;
+}
+
+.app .InfoBox-container{
+  text-align: center;
+  line-height: 2;
+  width: 25%;
+  height: 10px;
+  margin-left: 20px;
+}
+
+.app .main-selector{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 10%;
+  
+}
+.main-selector .country-dropdown{
+  width: 30%;
+}
+
+marquee{
+  color: white;
+  max-height: 50px;
+  background-color:rgb(72, 255, 0);
+  height: 15vh;
+  text-align: center;
+}
+marquee ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 4px;
+}
+.precaution_banner li{
+  font-size:40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+}
+.rightcard-countries{
+  margin-left: 75%;
+  margin-top: -3%;
+  overflow-y: scroll;
+  max-height: 73vh;
+  margin-right: 50px;
+  position: fixed;
+  width: 25%;
+}
+.rightcard-countries h4{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+  scroll-behavior: smooth;
+}
